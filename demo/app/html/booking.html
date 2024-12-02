@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mellanova Hotel</title>
+  <link rel="stylesheet" href="../css/booking_style.css">
+</head>
+<body>
+    <form action="../php/booking.php" method="POST">
+    <script src="../js/databackend.js" defer></script>
+  <!-- Navbar -->
+  <nav class="nav">
+    <div class="menu-nav">
+      <h1 class="logo">Mellanova</h1> 
+      <div class="menu">
+        <a href="homepage.html" class="menu-nav">Home</a>
+        <a href="about.html" class="menu-nav">About</a>
+        <a href="booking.html" class="menu-nav">Booking</a>
+        <a href="rooms.html" class="menu-nav">Rooms</a>
+        <a href="contact.html" class="menu-nav">Contact</a>
+      </div>
+      <div class="right-menu">
+        <button class="login">Login</button>
+      </div>
+    </div>
+  </nav>
+   <!-- Hero Section -->
+   <section class="hero">
+    <div class="hero-content">
+        <h1>Booking</h1>
+        <p>The elegant luxury bedrooms in this gallery showcase custom interior 
+          designs & decorating ideas. View pictures and find your
+           perfect luxury bedroom design.</p>
+      </div>
+    </section>
+ <!-- Booking Section -->
+ <div class="container">
+    <form action="" method="POST"> <!-- Ubah menjadi POST -->
+        <div class="form-group">
+            <label for="name">Full Name</label>
+            <input type="text" id="name" name="full_name" placeholder="Enter your name" required>
+        </div>
+        <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="Enter email address" required>
+        </div>
+        <div class="form-group">
+            <label for="room-type">Room Type</label>
+            <input type="text" id="room-type" name="room_type" placeholder="Enter room type" required>
+        </div>
+        <div class="form-group">
+            <label for="check-in">Check In</label>
+            <input type="date" id="check-in" name="check_in" placeholder="Select check-in date" required>
+        </div>
+        <div class="form-group">
+            <label for="check-out">Check Out</label>
+            <input type="date" id="check-out" name="check_out" placeholder="Select check-out date" required>
+        </div>
+        <div class="form-group">
+            <label for="phone">Phone Number</label>
+            <input type="tel" id="phone" name="phone_number" placeholder="Enter your phone number" required>
+        </div>
+        <div class="form-group">
+            <label for="total-room">Total Rooms</label>
+            <input type="number" id="total-room" name="total_rooms" placeholder="Enter number of rooms" required>
+        </div>
+        <div class="form-group">
+            <label for="payment-method">Payment Method</label>
+            <input type="text" id="payment-method" name="payment_method" placeholder="Enter payment method" required>
+        </div>
+        <div class="button-group">
+            <button type="submit" id="submit-btn">Send</button>
+            <button type="button" id="update-btn">Update</button>
+            <button type="button" id="delete-btn">Delete</button>
+            <button type="button" id="read-btn">Read</button>
+            <button class="btn" onclick="location.href='data.html';">Data Pengunjung</button>
+        </div>
+    </form>
+</div>
+
+  <!-- Footer -->
+<footer>
+    <div class="footer-content">
+        <div class="footer-info">
+            <h1 class="logo-footer">Mellanova</h1> 
+            <p>The service at the Hotel Monteleone was exceptional. There was absolutely no issue that was not addressed timely and with satisfactory results. We were particulary impressed with how the hotel staff anticipated our needs (periodically coming by the Board Room to check with us)</p>
+            <div class="social-links">
+                <a href="#">Twitter</a>
+                <a href="#">Facebook</a>
+                <a href="#">Instagram</a>
+                <a href="#">Pinterest</a>
+            </div>
+        </div>
+        <div class="footer-links">
+            <h3>Pages</h3>
+            <a href="homepage.html">Home</a>
+            <a href="#">About</a>
+            <a href="menu.html">Menu</a>
+            <a href="#">Pricing</a>
+            <a href="#">Blog</a>
+        </div>
+        <div class="footer-links">
+            <h3>Utility Pages</h3>
+            <a href="#">Start Here</a>
+            <a href="#">Styleguide</a>
+            <a href="#">Password Protected</a>
+            <a href="#">404 Not Found</a>
+            <a href="#">Licenses</a>
+        </div>
+    </div>
+</footer>
+
+
+</body>
+</html>
