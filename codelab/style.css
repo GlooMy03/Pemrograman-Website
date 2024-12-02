@@ -1,0 +1,40 @@
+.Hari{
+    background-color: rgb(255, 247, 0);
+    text-align: center;
+}
+
+.baris1kolom1{
+    background-color: rgb(0, 229, 255);
+}
+
+.baris2kolom1{
+    background-color: rgb(0, 229, 255);
+}
+
+.baris3kolom1{
+    background-color: rgb(0, 229, 255);
+}
+
+.baris1kolom2{
+    background-color: rgb(255, 0, 0);
+}
+
+.baris2kolom2{
+    background-color: rgb(255, 0, 0);
+}
+
+.baris3kolom2{
+    background-color: rgb(255, 0, 0);
+}
+
+.baris1kolom3{
+    background-color: rgb(0, 255, 8);
+}
+
+.baris2kolom3{
+    background-color: rgb(0, 255, 26);
+}
+
+.baris3kolom3{
+    background-color: rgb(0, 255, 34);
+}

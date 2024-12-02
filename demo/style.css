@@ -1,0 +1,117 @@
+.hero{
+    height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url(Hotel.png);
+    background-size: cover;
+    background-position: center;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 40px;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.logo{
+    color: white;
+    font-size: 30px;
+}
+nav ul li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 20px;
+}
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+nav ul li a:hover{
+    color: red;
+    transition: .3s;
+}
+.button{
+   background-color: white;
+   display: grid;
+   grid-template-columns: repeat(n, 1fr);
+   gap: 10px;
+   display: flex;
+   align-items: center;
+}
+.judul{
+    color: white;
+    font-size: 40px;
+    padding-top: 200px;
+    padding-left: 200px;
+    padding-right: 500px;
+    padding-bottom: 10px;
+}
+.description{
+    color: white;
+    font-size: 40px;
+    padding-top: 20px;
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-bottom: 10px;
+}
+.navbartengah{
+    height: 20vh;
+    width: 95%;
+    background-image: linear-gradient(rgb(255, 255, 255), rgb(255, 255, 255)), url(kotak.png);
+    background-size: cover;
+    background-position: center;
+    margin-left: 40px;
+}
+.form .input-box{
+    width: 100%;
+    margin-top: 20px;
+    padding-right: 150px;
+    margin-left: 150px;
+    
+}
+.input-box label{
+    color: rgb(0, 0, 0);
+    padding-left: 150px;
+    padding-right: 100px;
+    font-weight: bold;
+   
+    
+}
+.form .input-box input{
+    position: relative;
+    height: 40px;
+    width: 17%;
+    outline: none;
+    font-size: 1rem;
+    color: black;
+    margin-top: 8px;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 6px;
+    padding: 0 15px;
+    margin-top: 10px;
+    margin-left: 70px;
+}
+.button-pesan{
+    display: grid;
+    place-items: center;
+}
+.button-pesan .pesan{
+    display: inline-block;
+    background: #4285F4;
+    color: #fff;
+    width: 240px;
+    height: 50px;
+    border-radius: 5px;
+    border: thin solid #888;
+    box-shadow: 1px 1px 1px grey;
+    white-space: nowrap;
+    font-size: 16px;
+    font-weight: normal;
+    font-family: 'Roboto', sans-serif;
+    margin: 2rem 0;
+}
+
+
