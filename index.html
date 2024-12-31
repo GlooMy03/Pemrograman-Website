@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do List</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>To-Do List</h1>
+      <ul class="todo-list">
+        <li> HTML <div class="actions">
+            <button class="edit">Edit</button>
+            <button class="delete">Delete</button>
+          </div>
+        </li>
+        <li> CSS <div class="actions">
+            <button class="edit">Edit</button>
+            <button class="delete">Delete</button>
+          </div>
+        </li>
+        <li> JAVASCRIPT <div class="actions">
+            <button class="edit">Edit</button>
+            <button class="delete">Delete</button>
+          </div>
+        </li>
+      </ul>
+      <form class="add-todo">
+        <input type="text" placeholder="Add a new task..." required>
+        <button type="submit">Add</button>
+      </form>
+    </div>
+
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        background-color: #f7f7f7;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+      }
+
+      .container {
+        background: #ffffff;
+        padding: 20px;
+        border-radius: 8px;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        width: 100%;
+        max-width: 400px;
+        text-align: center;
+      }
+
+      h1 {
+        margin-bottom: 20px;
+        color: #333;
+      }
+
+      .todo-list {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        margin-bottom: 20px;
+      }
+
+      .todo-list li {
+        background: #f0f0f0;
+        margin: 5px 0;
+        padding: 10px 15px;
+        border-radius: 5px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        font-size: 16px;
+        color: #555;
+        position: relative;
+      }
+
+      .actions {
+        display: flex;
+        gap: 5px;
+      }
+
+      .actions .edit,
+      .actions .delete {
+        border: none;
+        border-radius: 5px;
+        padding: 5px 10px;
+        font-size: 12px;
+        cursor: pointer;
+      }
+
+      .actions .edit {
+        background: #ffc107;
+        color: #fff;
+      }
+
+      .actions .edit:hover {
+        background: #e0a800;
+      }
+
+      .actions .delete {
+        background: #dc3545;
+        color: #fff;
+      }
+
+      .actions .delete:hover {
+        background: #c82333;
+      }
+
+      form.add-todo {
+        display: flex;
+        gap: 10px;
+      }
+
+      form.add-todo input {
+        flex: 1;
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+      }
+
+      form.add-todo button {
+        background: #28a745;
+        color: #fff;
+        border: none;
+        border-radius: 5px;
+        padding: 10px 15px;
+        cursor: pointer;
+      }
+
+      form.add-todo button:hover {
+        background: #218838;
+      }
+    </style>
+  </body>
+</html>
